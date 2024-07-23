@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "concurrently \"flutter run -d web-server --web-port 5000\" \"node server.js\""
+  },
+  "name": "frontend",
+  "description": "A new Flutter project.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
